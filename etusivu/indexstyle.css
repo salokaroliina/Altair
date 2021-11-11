@@ -1,0 +1,15 @@
+#perustettu{
+  font-size: 15px;
+  font-style: italic;
+}
+
+#covid{
+  font-weight: bold;
+}
+
+#etusivuhr{
+  background-color: red;
+  height: 4px;
+  border: none;
+  width: 1180px;
+}
