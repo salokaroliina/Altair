@@ -1,0 +1,80 @@
+.sisalto{
+  width: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.rekisteriTeksti, .jäsenTeksti, .jasenhakemuslomake{
+  padding-left: 50px;
+}
+
+input, label{
+  font-size: 18px;
+}
+
+#nimi, #osoite, #posti, #sposti, #ammatti, #kotisivu{
+  width: 250px;
+}
+
+#syntaika{
+  width: 100px;
+}
+
+#puhelin{
+  width: 150px;
+}
+
+#tyyppi label{
+  float: left;
+  width: 200px;
+  margin-left: -10px;
+}
+
+#tyyppi span{
+  display: block;
+  padding: 10px;
+}
+
+#henkilotiedot label{
+  float: left;
+  width: 250px;
+}
+
+#henkilotiedot span{
+  display: block;
+  padding: 5px;
+}
+
+#henkilotiedot input{
+  margin-top: -5px;
+}
+
+#jasenlaji{
+  padding: 0px 5px 5px 5px;
+  margin-left: -5px;
+}
+
+#perhejasen label{
+  float: left;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: -5px;
+  width: auto;
+}
+
+#perhejasen input{
+margin-top: 23px;
+width: 200px;
+}
+
+#lisatietoja p{
+  padding: 5px 5px 0px 5px;
+  margin-left: -5px;
+  margin-bottom: 0px;
+}
+
+button{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}

@@ -2,7 +2,7 @@ body{
   background-image: url(kuvat/altairback1.gif);
 }
 
-p, a{
+p, a, li{
   font-size: 18px;
   line-height: 25px;
 }
@@ -34,7 +34,7 @@ padding: 0px 20px 5px 10px;
   padding-right: 50px;
 }
 
-hr{
+#footerhr{
   background-color: red;
   height: 4px;
   border: none;

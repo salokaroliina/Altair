@@ -1,0 +1,14 @@
+.yhteysTeksti{
+  float: left;
+  width: 500px;
+}
+
+.hallitus{
+  float: right;
+  width: 400px;
+}
+
+li{
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
