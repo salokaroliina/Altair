@@ -12,69 +12,53 @@ ul{
   margin-left: 75px;
 }
 
+/*Seuraavat muotoilut koskevat vain lomaketta */
+form{
+width: 700px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
 input, label{
   font-size: 18px;
 }
 
-#nimi, #osoite, #posti, #sposti, #ammatti, #kotisivu{
+label{
+  float: left;
   width: 250px;
 }
 
-#syntaika{
-  width: 100px;
+#jasenlabel{
+padding-top: 10px;
 }
 
-#puhelin{
-  width: 150px;
+#perhejasenlabel{
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#tyyppi label{
-  float: left;
-  width: 200px;
-  margin-left: -10px;
+#perhejasen{
+  margin-top: 20px;
 }
 
-#tyyppi span{
+#jasenhakemus, #jasentiedot{
+  margin-left: -60px;
+}
+
+
+#jasen, #pjasen, #yjasen, #kjasen{
+margin-left: -90px;
+}
+
+textarea{
+  margin-top: -10px;
+}
+
+span{
   display: block;
   padding: 10px;
-}
-
-#henkilotiedot label{
-  float: left;
-  width: 250px;
-}
-
-#henkilotiedot span{
-  display: block;
-  padding: 5px;
-}
-
-#henkilotiedot input{
-  margin-top: -5px;
-}
-
-#jasenlaji{
-  padding: 0px 5px 5px 5px;
-  margin-left: -5px;
-}
-
-#perhejasen label{
-  float: left;
-  padding: 5px;
-  margin-top: 20px;
-  margin-left: -5px;
-  width: auto;
-}
-
-#perhejasen input{
-margin-top: 23px;
-width: 200px;
-}
-
-#lisatietoja p{
-  padding: 5px 5px 0px 5px;
-  margin-left: -5px;
-  margin-bottom: 0px;
+  margin-top: -10px;
 }
 
 button{
