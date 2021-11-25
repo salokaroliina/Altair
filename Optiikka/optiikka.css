@@ -1,0 +1,9 @@
+.sisalto{
+  width: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.optiikkaTeksti, .kaukoputketTeksti{
+  padding-left: 50px;
+}

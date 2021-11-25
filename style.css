@@ -11,7 +11,7 @@ li{
   list-style-type: square;
 }
 
-#hr{
+.hr{
   background-color: red;
   height: 4px;
   border: none;
@@ -74,7 +74,6 @@ footer{
   font-size: 14px;
   font-style: italic;
 }
-
 
 .linkkipalkki{
   display: grid;
