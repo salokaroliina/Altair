@@ -7,3 +7,43 @@
 .kerhoTeksti, .talousTeksti, .virkkiTeksti{
   padding-left: 50px;
 }
+
+/*Kuvien muotoilu*/
+
+#ktoiminta_kuvayksi{
+float: left;
+height:250px;
+padding: 30px;
+padding-left: 0px;
+padding-top: 0px;
+}
+
+#ktoiminta_kuvakaksi{
+float: right;
+height:250px;
+padding: 30px;
+padding-left: 0px;
+padding-top: 0px;
+}
+
+#ktila_kuvayksi{
+float: left;
+height:250px;
+padding: 30px;
+}
+
+#ktila_kuvakaksi{
+float: right;
+height:250px;
+padding: 30px;
+}
+
+
+#kirjasto_kuvayksi{
+  float: left;
+  height:250px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+
+}

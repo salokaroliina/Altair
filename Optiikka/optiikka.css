@@ -7,3 +7,118 @@
 .optiikkaTeksti, .kaukoputketTeksti{
   padding-left: 50px;
 }
+
+*/
+
+#optiikka_kuva{
+float: left;
+height:250px;
+padding: 30px;
+padding-left: 0px;
+padding-top: 0px;
+}
+
+
+#lomo{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#dobson{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#pikkulomo{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#aarne{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#ret50{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#ret45{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#mizar{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#mto8{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#linssiputki{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#wetzlar{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#bresser{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#baader{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
+
+#olympus{
+  float: left;
+  height:150px;
+  padding: 30px;
+  padding-left: 0px;
+  padding-top: 0px;
+  }
