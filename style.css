@@ -15,6 +15,10 @@ p,a,li{
   line-height: 25px;
 }
 
+h1{
+  font-size: 25px;
+}
+
 /*PUDOTUSVALIKKO*/
 .dropbtn{
   background-color: red;
@@ -59,7 +63,6 @@ p,a,li{
   background-color: red;
 }
 
-
 nav{
   visibility: hidden;
 }
@@ -83,7 +86,7 @@ padding: 5px;
 
 /*SELAINNÄKYMÄ */
 @media screen and (min-width: 600px){
-  .dropbtn{
+  .dropbtn, .dropdown{
     visibility: hidden;
   }
 

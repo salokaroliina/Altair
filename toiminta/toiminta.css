@@ -1,0 +1,15 @@
+.toimintalinkkeja{
+  float: left;
+}
+
+#toiminta_yksi{
+  height: 250px;
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+#toiminta_kaksi{
+  height: 350px;
+
+}

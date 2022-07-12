@@ -1,6 +1,6 @@
-/*.sisalto{
+.sisalto{
   width: auto;
-  padding-left: 100px;
+  padding-left: 50px;
   padding-right: 100px;
 }
 
@@ -8,7 +8,11 @@
   padding-left: 50px;
 }
 
-*/
+h1{
+  width: auto;
+  padding-left: 50px;
+}
+
 
 #optiikka_kuva{
 float: left;

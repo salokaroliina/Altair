@@ -1,6 +1,6 @@
-/*.sisalto{
+.sisalto{
   width: auto;
-  padding-left: 100px;
+  padding-left: 75px;
   padding-right: 100px;
 }
 
@@ -8,11 +8,24 @@
   padding-left: 50px;
 }
 
+h1{
+  width: auto;
+  padding-left: 50px;
+}
+
+ul{
+  padding-left: 140px;
+}
+
+.virkkilinkit{
+  padding-left: 80px;
+}
+
 /*Kuvien muotoilu*/
 
 #ktoiminta_kuvayksi{
 float: left;
-height:250px;
+height:275px;
 padding: 30px;
 padding-left: 0px;
 padding-top: 0px;
@@ -24,18 +37,23 @@ height:250px;
 padding: 30px;
 padding-left: 0px;
 padding-top: 0px;
+padding-right: 0px;
 }
 
 #ktila_kuvayksi{
 float: left;
 height:250px;
 padding: 30px;
+padding-left: 0px;
+padding-top: 0px;
 }
 
 #ktila_kuvakaksi{
 float: right;
 height:250px;
 padding: 30px;
+padding-right: 0px;
+padding-top: 0px;
 }
 
 

@@ -1,15 +1,11 @@
+.liityTeksti{
+  margin-top: -60px;
+}
+
 .sisalto{
   width: auto;
   padding-left: 100px;
   padding-right: 100px;
-}
-
-.rekisteriTeksti, .jäsenTeksti, .jasenhakemuslomake{
-  padding-left: 50px;
-}
-
-ul{
-  margin-left: 75px;
 }
 
 /*Seuraavat muotoilut koskevat vain lomaketta */

@@ -1,4 +1,21 @@
-/*table, th, tr{
+.sisalto{
+  width: auto;
+  padding-left: 75px;
+  padding-right: 100px;
+}
+
+.sampoTeksti,.kuvaajatTeksti,.sidTeksti,h1{
+  padding-left: 50px;
+}
+
+.sidTeksti{
+  padding-bottom: 40px;
+}
+
+ul li{
+  list-style: circle;
+}
+
+table,tr,th{
   border: 1px solid black;
-  text-align: left;
 }
