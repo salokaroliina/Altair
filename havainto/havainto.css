@@ -9,7 +9,8 @@ padding-top: 0px;
 #havainto_kaksi{
 float: right;
 height:250px;
-padding: 30px;
-padding-left: 0px;
-padding-top: 0px;
+}
+
+ul{
+  margin-left: -20px;
 }

@@ -1,3 +1,9 @@
+.sisalto{
+  width: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .toimintalinkkeja{
   float: left;
 }
@@ -11,5 +17,5 @@
 
 #toiminta_kaksi{
   height: 350px;
-
+  float: right;
 }

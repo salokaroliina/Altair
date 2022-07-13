@@ -1,6 +1,6 @@
 .sisalto{
   width: auto;
-  padding-left: 75px;
+  padding-left: 50px;
   padding-right: 100px;
 }
 
@@ -13,8 +13,12 @@ h1{
   padding-left: 50px;
 }
 
-ul{
-  padding-left: 140px;
+#kerholinkit{
+  padding-left: 170px;
+}
+
+#virkki{
+  margin-left: 130px;
 }
 
 .virkkilinkit{
@@ -34,10 +38,9 @@ padding-top: 0px;
 #ktoiminta_kuvakaksi{
 float: right;
 height:250px;
-padding: 30px;
-padding-left: 0px;
-padding-top: 0px;
-padding-right: 0px;
+padding-bottom: 30px;
+padding-left: 30px;
+
 }
 
 #ktila_kuvayksi{

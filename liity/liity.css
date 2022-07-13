@@ -8,6 +8,10 @@
   padding-right: 100px;
 }
 
+ul li{
+  margin-left: 80px;
+}
+
 /*Seuraavat muotoilut koskevat vain lomaketta */
 form{
 width: 700px;

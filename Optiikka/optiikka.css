@@ -13,6 +13,10 @@ h1{
   padding-left: 50px;
 }
 
+ul{
+  margin-left: -20px;
+}
+
 
 #optiikka_kuva{
 float: left;

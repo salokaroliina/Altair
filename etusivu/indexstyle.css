@@ -1,4 +1,4 @@
-/*.etusivuTeksti, .etusivuLinkit{
+.etusivuTeksti, .etusivuLinkit{
   width: 720px;
   float: left;
 }
@@ -7,6 +7,7 @@
   float: right;
   width: 170px;
   margin-right: -25px;
+  margin-top: -50px;
   padding: 10px;
   background-color:
 }
@@ -14,6 +15,7 @@
 #perustettu{
   font-size: 15px;
   font-style: italic;
+  margin-top: -20px;
 }
 
 #covid{
