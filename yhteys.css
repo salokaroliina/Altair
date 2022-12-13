@@ -1,18 +1,5 @@
-/*.yhteysTeksti{
-  float: left;
-  width: 500px;
-}
-
-.hallitus{
-  float: right;
-  width: 400px;
-}
-
-li{
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-*/
+/*SELAINNÄKYMÄ */
+@media screen and (min-width: 600px){
 
 .yhteysTeksti{
   float: left;
@@ -21,4 +8,6 @@ li{
 .hallitus{
   float: right;
   margin-right: 140px;
+}
+
 }

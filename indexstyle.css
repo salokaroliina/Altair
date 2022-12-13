@@ -1,3 +1,6 @@
+/*SELAINNÄKYMÄ */
+@media screen and (min-width: 600px){
+
 .etusivuTeksti, .etusivuLinkit{
   width: 720px;
   float: left;
@@ -20,4 +23,6 @@
 
 #covid{
   font-weight: bold;
+}
+
 }

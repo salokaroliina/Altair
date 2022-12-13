@@ -1,5 +1,10 @@
+/*SELAINNÄKYMÄ */
+@media screen and (min-width: 600px){
+
 .liityTeksti{
   margin-top: -60px;
+  width: 720px;
+  float: left;
 }
 
 .sisalto{
@@ -10,6 +15,7 @@
 
 ul li{
   margin-left: 80px;
+}
 }
 
 /*Seuraavat muotoilut koskevat vain lomaketta */

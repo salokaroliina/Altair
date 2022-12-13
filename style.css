@@ -1,7 +1,5 @@
 /*OLETUKSENA MOBIILINÄKYMÄ*/
-body{
-  background-image: url(kuvat/altairback1.gif);
-}
+
 
 /*Sisällön pohja*/
 .wrapper{
@@ -22,15 +20,21 @@ h1{
   font-size: 25px;
 }
 
+/*Mobiilissa sivupalkki on piilotettu*/
+nav{
+  visibility: hidden;
+}
+
 /*PUDOTUSVALIKKO*/
 .dropbtn{
   background-color: red;
   color: white;
   margin-left: 5px;
-  min-width: 380px;
   font-size: 20px;
+  padding: 5px 15px 5px 15px;
   border: none;
   text-align: left;
+  border-radius: 3px;
 }
 
 .dropdown{
@@ -38,13 +42,14 @@ h1{
   display: inline-block;
 }
 
-.dropdown-content{
-  display: none;
+#dropContent{
+  visibility: hidden;
   position: absolute;
   background-color: red;
   min-width: 160px;
   margin-left: 5px;
   z-index: 1;
+  border-radius: 3px;
 }
 
 .dropdown-content a{
@@ -52,23 +57,6 @@ h1{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-}
-
-.dropdown-content a:hover{
-  background-color: red;
-}
-
-.dropdown:hover .dropdown-content{
-  display: block;
-}
-
-.dropdown:hover .dropbtn{
-  background-color: red;
-}
-
-/*Mobiilissa sivupalkki on */
-nav{
-  visibility: hidden;
 }
 
 /*Pääsisällön muotoilu mobiilissa*/
@@ -92,6 +80,10 @@ padding: 5px;
 
 /*SELAINNÄKYMÄ */
 @media screen and (min-width: 600px){
+
+  body{
+    background-image: url(kuvat/altairback1.gif);
+  }
 
 /*Pudotusvalikko on selaimessa piilotettu*/
   .dropbtn, .dropdown{

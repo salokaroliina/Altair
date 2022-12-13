@@ -2,23 +2,27 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="liity.css">
+    <script src="../script.js" charset="utf-8"></script>
     <title>Tähtitieteellinen yhdistys Keski-Uudenmaan Altair ry</title>
   </head>
   <body>
     <div class="wrapper">
 
     <header>
+      <h1>Altair ry</h1>
     </header>
     <hr class="hr">
 
 <!--Pudotusvalikko mobiilinäkymässä -->
     <div class="dropdown">
-      <button class="dropbtn" type="button">Valikko</button>
-      <div class="dropdown-content">
+      <button class="dropbtn" type="button" onclick="dropdownFunc()">Valikko</button>
+      <div class="dropdown-content" id="dropContent">
         <a href="../index.html">Etusivu</a>
-        <a href="../liity/index.html">Liity</a>
+        <a href="index.html">Liity</a>
         <a href="../yleista.html">Yleistä</a>
         <a href="../g-kalenteri.html">Google-kalenteri</a>
         <a href="http://altairkerho.blogspot.com/" target="_blank" rel="noopener noreferrer">Aquila</a>
