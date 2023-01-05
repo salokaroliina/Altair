@@ -121,6 +121,7 @@ padding: 5px;
   header{
     height: 150px;
     border: 2px solid white;
+    background-image: url(kuvat/testibanneri.png);
   }
 
 /*Linkkipalkki*/
