@@ -71,8 +71,9 @@
     header{
       height: 180px;
       border: 2px solid white;
-      background-image: url(kuvat/testibanneri.png);
-      text-align: center;
+      background-image: url(kuvat/altbanneri.png);
+      text-align: right;
+      color: white;
     }
 
     #altair{
