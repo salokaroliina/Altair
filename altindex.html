@@ -20,18 +20,16 @@
 
     <nav>
         <div class="altdropdown">
-          <button class="altdropbtn" type="button" onclick="dropdownFunc()">Valikko</button>
-          <div class="altdropdown-content" id="altdropContent">
-            <p>Esimerkkilinkki 1</p>
-            <p>Esimerkkilinkki 2</p>
-            <p>Esimerkkilinkki 3</p>
-            <p>Esimerkkilinkki 4</p>
-            <p>Esimerkkilinkki 5</p>
+          <button class="altdropbtn" type="button" id="valikko" onmouseover="dropdownFunc()">Liittyminen</button>
+          <div class="altdropdown-content" id="altdropContent" onmouseleave="dropdownleaveFunc()">
+            <button class="valikkolinkit"><a href="liity/index.html">Liity</a></button>
+            <button class="valikkolinkit"><a href="liity/e-hakemus.html">Jäsenhakemuslomake</a></button>
+            <button class="valikkolinkit"><a href="liity/rekisteriseloste.html">Rekisteriseloste</a></button>
           </div>
         </div>
 
         <div class="altdropdown">
-          <button class="altdropbtn" type="button" onclick="dropdownFunc2()">Valikko 2</button>
+          <button class="altdropbtn" type="button">Valikko 2</button>
           <div class="altdropdown-content" id="altdropContent2">
             <p>Esimerkkilinkki 6</p>
             <p>Esimerkkilinkki 7</p>
@@ -60,32 +58,8 @@
         <div class="altdropdown">
           <button class="altdropbtn" type="button">Valikko 7</button>
         </div>
-
-        <div class="altdropdown">
-          <button class="altdropbtn" type="button">Valikko 8</button>
-        </div>
-
-        <div class="altdropdown">
-          <button class="altdropbtn" type="button">Valikko 9</button>
-        </div>
     </nav>
 
-
-<!-- 
-      <nav>
-        <a class="linkkipalkki" href="liity/index.html">Liity</a>
-        <a class="linkkipalkki" href="yleista.html">Yleistä</a>
-        <a class="linkkipalkki" href="g-kalenteri.html">Kalenteri</a>
-        <a class="linkkipalkki" href="http://altairkerho.blogspot.com/" target="_blank" rel="noopener noreferrer">Aquila</a>
-        <a class="linkkipalkki" href="kerho/index.html">Kerhotoiminta</a>
-        <a class="linkkipalkki" href="galilei/index.html">Galilei</a>
-        <a class="linkkipalkki" href="https://www.ursa.fi/yhd/jpaannova/index.html" target="_blank" rel="noopener noreferrer">NOVA</a>
-        <a class="linkkipalkki" href="kerho/kirjasto.html">Kirjasto</a>
-        <a class="linkkipalkki" href="havainto/index.html">Havaitseminen</a>
-        <a class="linkkipalkki" href="toiminta/index.html">Muu toiminta</a>
-        <a class="linkkipalkki" href="yhteys.html">Yhteystietoja</a>
-        <a class="linkkipalkki" href="tiedotus/index.html">Viestintä</a> 
-    </nav> -->
 
       <div class="sisalto">
         <article class="etusivuTeksti">
@@ -100,29 +74,12 @@
           <p id="covid">Yhdistyksen kerhoillat ovat siirtyneet takaisin kerhotiloihin, mutta kuuntelemme herkällä korvalla suosituksia ja määräyksiä COVID-19 -altistusten välttämiseksi ja noudatamme niitä kaikessa toiminnassa. Siksi nopeatkin muutokset ovat mahdollisia.</p>
           <p>Illat ovat avoinna kaikille kiinnostuneille ja linkki löytyy allaolevan kerhoiltalinkin takaa. Valtaosaan illoista on mahdollista osallistua myös etänä.
           </p>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            <br>
-            <br>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            <br>
-            <br>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </p>
           <a href="index.html">ETUSIVULLE</a>
         </article>
 
         <article class="ajankohtaistaTeksti">
           <p><b>Ajankohtaista</b></p>
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            <br>
-            <br>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            <br>
-            <br>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            <br>
-            <br>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           </p>
 
         </article> 
