@@ -1,0 +1,7 @@
+<div class="dropdown">
+          <button class="dropbtn" type="button" id="valikko" onmouseover="dropdownFunc()">Liittyminen</button>
+          <div class="dropdown-content" id="dropContent" onmouseleave="dropdownleaveFunc()">
+            <button class="valikkolinkit"><a href="index.html">Liity</a></button>
+            <button class="valikkolinkit"><a href="rekisteriseloste.html">Rekisteriseloste</a></button>
+          </div>
+        </div>

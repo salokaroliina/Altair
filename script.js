@@ -1,4 +1,3 @@
-// pudotusvalikko tulee näkyviin klikkaamalla, ja pienenee klikkaamalla uudelleeen
 function dropdownFunc(){
   var x = document.getElementById('dropContent');
 
@@ -8,6 +7,18 @@ function dropdownFunc(){
     }
     else{
       x.style.visibility = 'visible';
+    }
+}
+
+function dropdownleaveFunc(){
+  var y = document.getElementById('dropContent');
+
+  if(y.style.visibility === 'visible')
+  {
+    y.style.visibility = 'hidden';
+    }
+    else{
+      y.style.visibility = 'visible';
     }
 }
 

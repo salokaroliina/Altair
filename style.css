@@ -1,182 +1,160 @@
-/*OLETUKSENA MOBIILINÄKYMÄ*/
+@media screen and (min-width: 600px){
 
-
-/*Sisällön pohja*/
-.wrapper{
-  background-color: white;
-  min-width: 350px;
-  margin: auto;
-  margin-top: -15px;
+    body{
+      background-image: url(kuvat/altairback1.gif);
+    }
+  
+*{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#edellinen{
-  padding-left: 30px;
-}
-
-/*Tekstin yleinen muotoilu*/
-p,a,li{
-  font-size:20px;
-  line-height: 25px;
-}
-
-/*Pääotsikot*/
-h1{
-  font-size: 25px;
-}
-
-/*Mobiilissa sivupalkki on piilotettu*/
-nav{
-  visibility: hidden;
-}
-
-/*PUDOTUSVALIKKO*/
+/*valikkopainikkeet*/
 .dropbtn{
+  border: none;
+  border-bottom: 1px solid grey;
+  color: black;
+  background-color: white;
+  min-width: 100px;
+  width: auto;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+/*Valikon taustaväri muuttuu hiiren ollessan sen päällä*/
+.dropbtn:hover{
   background-color: red;
   color: white;
-  margin-left: 5px;
-  font-size: 20px;
-  padding: 5px 15px 5px 15px;
-  border: none;
-  text-align: left;
-  border-radius: 3px;
 }
 
+/*Pudotusvalikon muotoilua*/
 .dropdown{
   position: relative;
   display: inline-block;
 }
 
-#dropContent{
+/*Pudotusvalikot*/
+#dropContent, #dropContent2{
   visibility: hidden;
   position: absolute;
   background-color: red;
-  min-width: 160px;
-  margin-left: 5px;
+  min-width: 130px;
+  padding-left: 2px;
   z-index: 1;
-  border-radius: 3px;
+  border-radius: 1px;
 }
 
-.dropdown-content a{
+/*Valikon muotoilu*/
+.valikkolinkit, .valikkolinkit a{
+  font-size: 18px;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
   color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+  height: 34px;
 }
 
-/*Pääsisällön muotoilu mobiilissa*/
-.sisalto{
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-top: -100px;
-}
+  /*Punaiset viivat sivulla*/
+    .hr{
+      background-color: red;
+      height: 2px;
+      border: none;
+      width: auto;
+      margin-top: 2px;
+    }
+  
+  /*Sisällön pohja selaimessa*/
+    .wrapper{
+      width: 1200px;
+      margin: auto;
+      height: auto;
+      min-height: 980px;
+      border: 1px solid black;
+      background-color: white;
+    }
+  
+  /*Sivun banneri selaimessa*/
+    header{
+      height: 180px;
+      border: 2px solid white;
+      background-image: url(Bannerit/M33.png);
+      text-align: right;
+      color: white;
+    }
 
-/*Sivun banneri*/
-header h1{
-text-align: center;
-color: red;
-padding-top: 15px;
-}
+    /*Bannerin tekstiä, korvataan myöhemmin kuvalla*/
+    #banneriteksti{
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      text-decoration: underline;
+      font-size: 40px;
+      margin-left: 30px;
+      margin-top: 50px;
+    }
 
-footer{
-padding: 5px;
-}
+    /*Bannerin Altair-teksti, korvataan myöhemmin kuvalla*/
+    #altair{
+      color: white;
+      text-decoration: underline;
+      font-size: 50px;
+      padding-top: 20px;    
+    }
+  
+  /*Linkkipalkki*/
+    nav{
+      visibility: visible;
+      display: flex;
+      position: absolute;
+      width: 1180px;
+      margin-top: -5px;
+    }
 
+    
+  /*Sisältöalue sivulla*/
+    .sisalto{
+      float: left;
+      width: 1180px;
+      margin-top: 50px;
+      padding-left: 20px;
+      background-color: white;
+    }
 
-/*SELAINNÄKYMÄ */
-@media screen and (min-width: 600px){
+    /*Sivun varsinainen teksti*/
+    .paaTeksti{
+      float: left;
+      max-width: 800px;
+      min-height: 550px;
+      padding-right: 80px;
+      padding-left: 160px;
+    }
 
-  body{
-    background-image: url(kuvat/altairback1.gif);
+  /*Footer sivun alalaidassa*/
+    footer{
+      height: 140px;
+      width: 1200px;
+      float: left;
+      text-align:center;
+      font-size: 12px;
+      background-color: white;
+      margin-bottom: 10px;
+      margin-left: -20px;
+      padding: 0px;
+    }
+  
+    .footeremail{
+      font-size: 18px;
+      font-weight: bold;
+      color: blue;
+      text-decoration: underline;
+      padding-top: 20px;
+    }
+  
+    .footerupdate{
+      font-size: 14px;
+      font-style: italic;
+    }
+  
   }
-
-/*Pudotusvalikko on selaimessa piilotettu*/
-  .dropbtn, .dropdown{
-    visibility: hidden;
-  }
-
-/*Listojen yleinen muotoilu*/
-  li{
-    list-style-type: square;
-  }
-
-/*Punaiset viivat sivulla*/
-  .hr{
-    background-color: red;
-    height: 4px;
-    border: none;
-    width: 1180px;
-  }
-
-/*Sisällön pohja selaimessa*/
-  .wrapper{
-    width: 1200px;
-    margin: auto;
-    height: auto;
-    min-height: 1200px;
-    border: 1px solid black;
-    background-color: white;
-  }
-
-/*Sivun banneri selaimessa*/
-  header{
-    height: 150px;
-    border: 2px solid white;
-    background-image: url(kuvat/testibanneri.png);
-  }
-
-/*Linkkipalkki*/
-  nav{
-    visibility: visible;
-    float: left;
-    display: block;
-    width: 170px;
-    padding: 0px 20px 5px 10px;
-  }
-
-/*Linkkipainikkeiden muotoilu */
-  .linkkipalkki{
-    display: grid;
-    background-color: red;
-    padding: 10px;
-    margin: 5px;
-    color: white;
-    text-align: right;
-    border-radius: 3px;
-  }
-
-
-/*Itse sisältö sivulla*/
-  .sisalto{
-    width: auto;
-    margin-top: 0px;
-    padding-left: 200px;
-    padding-right: 50px;
-  }
-
-  footer{
-    height: 180px;
-    width: inherit;
-    float: left;
-    text-align:center;
-    font-size: 12px;
-    background-color: white;
-    margin-bottom: 10px;
-    padding: 0px;
-  }
-
-  .footeremail{
-    font-size: 18px;
-    font-weight: bold;
-    color: blue;
-    text-decoration: underline;
-    padding-top: 20px;
-  }
-
-  .footerupdate{
-    font-size: 14px;
-    font-style: italic;
-  }
-
-
-
-}
+  

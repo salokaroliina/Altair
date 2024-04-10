@@ -14,59 +14,56 @@
     <div class="wrapper">
 
     <header>
-    <h1>Altair ry</h1>
+      <h2 id="banneriteksti">Altair ry</h2>
     </header>
 
     <hr class="hr">
 
-    <div class="dropdown">
-      <button class="dropbtn" type="button" onclick="dropdownFunc()">Valikko</button>
-      <div class="dropdown-content" id="dropContent">
-        <a href="index.html">Etusivu</a>
-        <a href="liity/index.html">Liity</a>
-        <a href="yleista.html">Yleistä</a>
-        <a href="g-kalenteri.html">Google-kalenteri</a>
-        <a href="http://altairkerho.blogspot.com/" target="_blank" rel="noopener noreferrer">Aquila</a>
-        <a href="kerho/index.html">Kerhotoiminta</a>
-        <a href="galilei/index.html">Galilei</a>
-        <a href="https://www.ursa.fi/yhd/jpaannova/index.html"target="_blank" rel="noopener noreferrer">NOVA</a>
-        <a href="kerho/kirjasto.html">Kirjasto</a>
-        <a href="havainto/index.html">Havaitseminen</a>
-        <a href="toiminta/index.html">Muu toiminta</a>
-        <a href="yhteys.html">Yhteystietoja</a>
-        <a href="tiedotus/index.html">Viestintä</a>
-        <a href="https://www.taivaanvahti.fi/observations/browse/onlyPics/1257795/observation_start_time" target="_blank" rel="noopener noreferrer">Taivaanvahti</a>
-        <a href="https://www.facebook.com/altair.ry" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="https://twitter.com/Altair_ry" target="_blank" rel="noopener noreferrer">Twitter</a>
-        <a href="https://www.instagram.com/altair_ry/" target="_blank" rel="noopener noreferrer">Instagram</a>
-      </div>
-
-    </div>
-
     <nav>
-      <a class="linkkipalkki" href="index.html">Etusivu</a>
-      <a class="linkkipalkki" href="liity/index.html">Liity</a>
-      <a class="linkkipalkki" href="yleista.html">Yleistä</a>
-      <a class="linkkipalkki" href="g-kalenteri.html">Google-kalenteri</a>
-      <a class="linkkipalkki" href="http://altairkerho.blogspot.com/" target="_blank" rel="noopener noreferrer">Aquila</a>
-      <a class="linkkipalkki" href="kerho/index.html">Kerhotoiminta</a>
-      <a class="linkkipalkki" href="galilei/index.html">Galilei</a>
-      <a class="linkkipalkki" href="https://www.ursa.fi/yhd/jpaannova/index.html" target="_blank" rel="noopener noreferrer">NOVA</a>
-      <a class="linkkipalkki" href="kerho/kirjasto.html">Kirjasto</a>
-      <a class="linkkipalkki" href="havainto/index.html">Havaitseminen</a>
-      <a class="linkkipalkki" href="toiminta/index.html">Muu toiminta</a>
-      <a class="linkkipalkki"></a>
-      <a class="linkkipalkki"></a>
-      <a class="linkkipalkki" href="yhteys.html">Yhteystietoja</a>
-      <a class="linkkipalkki" href="tiedotus/index.html">Viestintä</a>
-      <a class="linkkipalkki" href="https://www.taivaanvahti.fi/observations/browse/onlyPics/1257795/observation_start_time" target="_blank" rel="noopener noreferrer">Taivaanvahti</a>
-      <a class="linkkipalkki" href="https://www.facebook.com/altair.ry" target="_blank" rel="noopener noreferrer">Facebook</a>
-      <a class="linkkipalkki" href="https://twitter.com/Altair_ry" target="_blank" rel="noopener noreferrer">Twitter</a>
-      <a class="linkkipalkki" href="https://www.instagram.com/altair_ry/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <!--Etusivu-->
+        <div class="dropdown">
+          <button class="dropbtn"><a href="index.html">Etusivu</a></button>
+        </div>
+      
+        <!--Liittyminen-->
+        <div class="dropdown">
+          <button class="dropbtn"><a href="liittyminen/index.html">Liity</a></button>
+        </div>
+
+        <!--Hallinto-->
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Hallinto</button>
+          <div class="dropdown-content" id="dropContent2">
+          </div>
+        </div>
+
+        <!--Kerhotoiminta-->
+         <div class="dropdown">
+          <button class="dropbtn" type="button" id="valikko" onmouseover="dropdownFunc()">Kerhotoiminta</button>
+          <div class="dropdown-content" id="dropContent" onmouseleave="dropdownleaveFunc()">
+            <button class="valikkolinkit"><a href="kerhotoiminta/kalenteri.html">Kalenteri</a></button>
+          </div>
+        </div>
+
+        <!--Havaintotoiminta-->
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Havaintotoiminta</button>
+        </div>
+
+        <!--Tapahtumat-->
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Tapahtumat</button>
+        </div>
+
+        <!--Muu toiminta-->
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Muu toiminta</button>
+        </div>
     </nav>
 
+
       <div class="sisalto">
-        <article class="etusivuTeksti">
+        <article class="indexTeksti">
           <p id="perustettu">Perustettu 1988 <br>
             Jäseniä noin 90</p>
           <p>Altair ry on tähtitieteen harrastajien yhdistys, joka toimii kolmen keskisen Uudenmaan kunnan,
@@ -75,22 +72,28 @@
             <a href="https://www.tuusula.fi/" target="_blank" rel="noopener noreferrer">Tuusulan</a>
             alueella. Sen toiminnan keskeisimpinä osina ovat havaintotoiminta, kirjasto, koulutus sekä harrastajien keskinäinen ajatustenvaihto. </p>
           <p>Yhdistyksen käytössä on alun kolmattakymmentä erikokoista kaukoputkea, sekä usean sadan julkaisun kirjasto. Kerhoiltoja on viikottain, kesäkuukausia lukuunottamatta joka torstai kello 19 Järvenpään Pöytä-Alhossa sijaitsevalla kerhohuoneella. Kesätauko alkaa kesäkuun puolivälissä ja jatkuu elokuun alkuun. </p>
-          <p id="covid">Yhdistyksen kerhoillat ovat siirtyneet takaisin kerhotiloihin, mutta kuuntelemme herkällä korvalla suosituksia ja määräyksiä COVID-19 -altistusten välttämiseksi ja noudatamme niitä kaikessa toiminnassa. Siksi nopeatkin muutokset ovat mahdollisia.</p>
-          <p>Illat ovat avoinna kaikille kiinnostuneille ja linkki löytyy allaolevan kerhoiltalinkin takaa. Valtaosaan illoista on mahdollista osallistua myös etänä.
-          </p>
-          <a href="altindex.html">ALT. ETUSIVULLE</a>
-        </article>
-        <article class="uutiset">
-          <p>Uutisia</p>
-          <!--Tähän kohtaan koodi joka tuo viimeisimmät Twitter-päivitykset ja Facebook-sivulta päivityksen -->
-
+            
         </article>
 
+        <article class="ajankohtaistaTeksti">
+          <p><b>Ajankohtaista</b></p>
+          <p>Ajankohtaisia asioita ja seuraavana kalenterissa</p>
+          <!-- © wdisseny --><div id="contain_moon" style="text-align:center;padding-top:5px;padding-bottom:5px;"><div style="font-weight:bold">The moon today</div><div style="margin-top:-7px;margin-bottom:-15px;padding:30px;filter:drop-shadow(0 0 30px hsl(220,100%,15%))"></div><div>.</div><div style="font-size:small">.</div></div><script>(function(){var d=new Date().getDate();var m=document.querySelectorAll("#contain_moon div");var a=new XMLHttpRequest();var url="https://www.icalendar37.net/lunar/api/?lang=en&month="+(new Date().getMonth()+1)+"&year="+(new Date().getFullYear())+"&size=100&lightColor=rgb(245,245,245)&shadeColor=rgb(17,17,17)&LDZ="+new Date(new Date().getFullYear(),new Date().getMonth(),1)/1000+"";m[1].style.height="100px";a.onreadystatechange=function(){if(a.readyState==4&&a.status==200){var b=JSON.parse(a.responseText);m[1].innerHTML=b.phase[d].svg;if(typeof moon_widget_loaded=="function")moon_widget_loaded(b);m[2].innerHTML=b.phase[d].npWidget;m[3].innerHTML="Next full moon<br>"+b.nextFullMoon}};a.open("GET",url,true);a.send()})()</script>
+          
+          <br><br><br>
+   
+        </article> 
+        
 
         <br><br>
-        <article class="etusivuLinkit">
-          <p><b>Seuraavana päivyrissä:</b> <br>
-          pvm / Päivyri </a>/sijainti</p>
+        <div class="etusivuLinkit">
+
+          <p><b>Sosiaalinen media:</b> <br>
+            <a href="https://www.taivaanvahti.fi/observations/browse/onlyPics/1257795/observation_start_time" target="_blank" rel="noopener noreferrer">Taivaanvahti</a> |
+            <a href="https://www.facebook.com/groups/277815041382235" target="_blank" rel="noopener noreferrer">Facebook</a> |
+            <a href="https://twitter.com/Altair_ry" target="_blank" rel="noopener noreferrer">Viestipalvelu X</a> |
+            <a href="https://www.instagram.com/altair_ry/" target="_blank" rel="noopener noreferrer">Instagram</a> 
+          </p>
           <p><b>Harrastusta:</b> <br>
             <a href="https://www.ursa.fi/etusivu.html" target="_blank" rel="noopener noreferrer">Ursa</a> |
             <a href="https://www.ursa.fi/harrastus/paikallisyhdistykset.html" target="_blank" rel="noopener noreferrer">Muita tähtiyhdistyksiä</a> |
@@ -119,10 +122,8 @@
             <a href="https://www.blitzortung.org/en/live_lightning_maps.php?map=11" target="_blank" rel="noopener noreferrer">Salamakartta</a> |
             <a href="https://www.ilmatieteenlaitos.fi/pilvet-eurooppa" target="_blank" rel="noopener noreferrer">Sääsatelliittikuvia</a> |
             <a href="https://meteoalarm.org/en/" target="_blank" rel="noopener noreferrer">Meteoalarm</a>
-
           </p>
-        </article>
-      </div>
+        </div>
 
         <footer>
           <hr class="hr">

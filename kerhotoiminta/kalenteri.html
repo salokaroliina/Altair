@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" charset="utf-8"></script>
+
+    <title>Tähtitieteellinen yhdistys Keski-Uudenmaan Altair ry</title>
+  </head>
+  <body>
+    <div class="wrapper">
+
+    <header>
+      <h2 id="banneriteksti">Altair ry</h2>
+    </header>
+
+    <hr class="hr">
+
+    <nav>
+      <!--Etusivu-->
+        <div class="dropdown">
+          <button class="dropbtn"><a href="../index.html">Etusivu</a></button>
+        </div>
+      
+        <!--Liittyminen-->
+        <div class="dropdown">
+          <button class="dropbtn"><a href="../liittyminen/index.html">Liity</a></button>
+        </div>
+
+        <!--Hallinto-->
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Hallinto</button>
+          <div class="dropdown-content" id="dropContent2">
+          </div>
+        </div>
+
+        <!--Kerhotoiminta-->
+        <div class="dropdown">
+          <button class="dropbtn" type="button" id="valikko" onmouseover="dropdownFunc()">Kerhotoiminta</button>
+          <div class="dropdown-content" id="dropContent" onmouseleave="dropdownleaveFunc()">
+            <button class="valikkolinkit"><a href="kalenteri.html">Kalenteri</a></button>
+          </div>
+        </div>
+
+
+        <!--Havaintotoiminta-->
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Havaintotoiminta</button>
+        </div>
+
+        <!--Tapahtumat-->
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Tapahtumat</button>
+        </div>
+
+        <!--Muu toiminta-->
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Muu toiminta</button>
+        </div>
+    </nav>
+
+      <div class="sisalto">
+        <article class="paaTeksti">
+          <p>KALENTERI</p>
+          <iframe src="https://calendar.google.com/calendar/embed?src=kalenteri%40keskiuudenmaanaltair.org&ctz=Europe%2FHelsinki" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </article>
+         
+
+        <footer>
+          <hr class="hr">
+          <p class="footeremail">altair(a)ursa.fi</p>
+          <p class="footerupdate">Päivitetty pvm <br>
+          © Copyright Tähtitieteellinen yhdistys Keski-Uudenmaan Altair ry </p>
+        </footer>
+    </div>
+  </body>
+</html>

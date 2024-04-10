@@ -1,28 +1,23 @@
-/*SELAINNÄKYMÄ */
-@media screen and (min-width: 600px){
+/*Etusivun oik.puoleinen ajankohtaista-laatikko */
+.ajankohtaistaTeksti{
+    float: left;
+    max-width: 300px;
+    margin-top: -50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-left: 1px solid black;
+  }
 
-.etusivuTeksti, .etusivuLinkit{
-  width: 720px;
-  float: left;
-}
+  /*Etusivun linkit muille sivustoille*/
+  .etusivuLinkit{
+    float: left;
+    padding-left: 10px;
+  }
 
-.uutiset{
-  float: right;
-  width: 170px;
-  margin-right: -25px;
-  margin-top: -50px;
-  padding: 10px;
-  background-color:
-}
-
-#perustettu{
-  font-size: 15px;
-  font-style: italic;
-  margin-top: -20px;
-}
-
-#covid{
-  font-weight: bold;
-}
-
-}
+  /*Etusivun pääteksti*/
+  .indexTeksti{
+    float: left;
+    max-width: 750px;
+    padding-right: 60px;
+    padding-left: 10px;
+  }
