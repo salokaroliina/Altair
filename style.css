@@ -1,12 +1,22 @@
+@media screen and (max-width: 500px){
+
+  #fullnav{
+    height: 0px;
+    visibility: hidden;
+  }
+
+}
+  
 @media screen and (min-width: 600px){
 
-    body{
-      background-image: url(kuvat/altairback1.gif);
-    }
+  body{
+    background-image: url(kuvat/altairback1.gif);
+  }
   
 *{
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 /*valikkopainikkeet*/
 .dropbtn{
@@ -103,7 +113,7 @@
     }
   
   /*Linkkipalkki*/
-    nav{
+    #fullnav{
       visibility: visible;
       display: flex;
       position: absolute;
@@ -156,5 +166,5 @@
       font-style: italic;
     }
   
-  }
-  
+
+}

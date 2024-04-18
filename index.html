@@ -19,7 +19,9 @@
 
     <hr class="hr">
 
-    <nav>
+    <nav id="mobilenav"></nav>
+
+    <nav id="fullnav">
       <!--Etusivu-->
         <div class="dropdown">
           <button class="dropbtn"><a href="index.html">Etusivu</a></button>
@@ -72,26 +74,25 @@
             <a href="https://www.tuusula.fi/" target="_blank" rel="noopener noreferrer">Tuusulan</a>
             alueella. Sen toiminnan keskeisimpinä osina ovat havaintotoiminta, kirjasto, koulutus sekä harrastajien keskinäinen ajatustenvaihto. </p>
           <p>Yhdistyksen käytössä on alun kolmattakymmentä erikokoista kaukoputkea, sekä usean sadan julkaisun kirjasto. Kerhoiltoja on viikottain, kesäkuukausia lukuunottamatta joka torstai kello 19 Järvenpään Pöytä-Alhossa sijaitsevalla kerhohuoneella. Kesätauko alkaa kesäkuun puolivälissä ja jatkuu elokuun alkuun. </p>
-            
         </article>
+
+        <hr class="hrmobile">
 
         <article class="ajankohtaistaTeksti">
           <p><b>Ajankohtaista</b></p>
-          <p>Ajankohtaisia asioita ja seuraavana kalenterissa</p>
+
+          <iframe id="kalenteri" src="https://calendar.google.com/calendar/embed?height=300&wkst=2&ctz=Europe%2FHelsinki&bgcolor=%23ffffff&showTz=0&showCalendars=0&showPrint=0&showTabs=0&showNav=0&showDate=0&mode=AGENDA&src=a2FsZW50ZXJpQGtlc2tpdXVkZW5tYWFuYWx0YWlyLm9yZw&color=%23F6BF26" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
+          <iframe id="kalenterimobiili" src="https://calendar.google.com/calendar/embed?height=300&wkst=2&ctz=Europe%2FHelsinki&bgcolor=%23ffffff&showNav=0&showDate=0&showPrint=0&showCalendars=0&showTz=0&mode=AGENDA&src=a2FsZW50ZXJpQGtlc2tpdXVkZW5tYWFuYWx0YWlyLm9yZw&color=%23F6BF26" width="325" height="200" frameborder="0" scrolling="no"></iframe>
+          <br>
           <!-- © wdisseny --><div id="contain_moon" style="text-align:center;padding-top:5px;padding-bottom:5px;"><div style="font-weight:bold">The moon today</div><div style="margin-top:-7px;margin-bottom:-15px;padding:30px;filter:drop-shadow(0 0 30px hsl(220,100%,15%))"></div><div>.</div><div style="font-size:small">.</div></div><script>(function(){var d=new Date().getDate();var m=document.querySelectorAll("#contain_moon div");var a=new XMLHttpRequest();var url="https://www.icalendar37.net/lunar/api/?lang=en&month="+(new Date().getMonth()+1)+"&year="+(new Date().getFullYear())+"&size=100&lightColor=rgb(245,245,245)&shadeColor=rgb(17,17,17)&LDZ="+new Date(new Date().getFullYear(),new Date().getMonth(),1)/1000+"";m[1].style.height="100px";a.onreadystatechange=function(){if(a.readyState==4&&a.status==200){var b=JSON.parse(a.responseText);m[1].innerHTML=b.phase[d].svg;if(typeof moon_widget_loaded=="function")moon_widget_loaded(b);m[2].innerHTML=b.phase[d].npWidget;m[3].innerHTML="Next full moon<br>"+b.nextFullMoon}};a.open("GET",url,true);a.send()})()</script>
-          
-          <br><br><br>
-   
+          <br>   
         </article> 
         
-
-        <br><br>
         <div class="etusivuLinkit">
 
           <p><b>Sosiaalinen media:</b> <br>
             <a href="https://www.taivaanvahti.fi/observations/browse/onlyPics/1257795/observation_start_time" target="_blank" rel="noopener noreferrer">Taivaanvahti</a> |
             <a href="https://www.facebook.com/groups/277815041382235" target="_blank" rel="noopener noreferrer">Facebook</a> |
-            <a href="https://twitter.com/Altair_ry" target="_blank" rel="noopener noreferrer">Viestipalvelu X</a> |
             <a href="https://www.instagram.com/altair_ry/" target="_blank" rel="noopener noreferrer">Instagram</a> 
           </p>
           <p><b>Harrastusta:</b> <br>

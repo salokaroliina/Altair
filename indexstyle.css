@@ -1,6 +1,32 @@
+@media screen and (max-width: 500px){
+
+ 
+  .indexTeksti{
+    max-width: 400px;
+  }
+
+  .ajankohtaistaTeksti{
+    display: inline-block;
+    max-width: 400px;
+    padding-left: 40px;
+  }
+
+  .etusivuLinkit{
+    max-width: 400px;
+  }
+
+  #kalenteri{
+    height: 0px;
+    visibility: hidden;
+  }
+}
+
+
+
+@media screen and (min-width: 600px){
 /*Etusivun oik.puoleinen ajankohtaista-laatikko */
 .ajankohtaistaTeksti{
-    float: left;
+    float: right;
     max-width: 300px;
     margin-top: -50px;
     padding-left: 30px;
@@ -12,6 +38,8 @@
   .etusivuLinkit{
     float: left;
     padding-left: 10px;
+    padding-top: 40px;
+    max-width:750px;
   }
 
   /*Etusivun pääteksti*/
@@ -21,3 +49,13 @@
     padding-right: 60px;
     padding-left: 10px;
   }
+
+  .hrmobile{
+    visibility: hidden;
+  }
+
+  #kalenterimobiili{
+    height: 0px;
+    visibility: collapse;
+  }
+}

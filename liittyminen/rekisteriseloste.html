@@ -23,13 +23,9 @@
         <button class="dropbtn"><a href="../index.html">Etusivu</a></button>
       </div>
       
-        <div class="dropdown">
-          <button class="dropbtn" type="button" id="valikko" onmouseover="dropdownFunc()">Liittyminen</button>
-          <div class="dropdown-content" id="dropContent" onmouseleave="dropdownleaveFunc()">
-            <button class="valikkolinkit"><a href="index.html">Liity</a></button>
-            <button class="valikkolinkit"><a href="rekisteriseloste.html">Rekisteriseloste</a></button>
-          </div>
-        </div>
+      <div class="dropdown">
+        <button class="dropbtn"><a href="index.html">Liity</a></button>
+      </div>
 
         <div class="dropdown">
           <button class="dropbtn" type="button">Hallinto</button>
@@ -37,9 +33,13 @@
           </div>
         </div>
 
-        <div class="dropdown">
-          <button class="dropbtn" type="button">Kerhotoiminta</button>
+       <!--Kerhotoiminta-->
+       <div class="dropdown">
+        <button class="dropbtn" type="button" id="valikko" onmouseover="dropdownFunc()">Kerhotoiminta</button>
+        <div class="dropdown-content" id="dropContent" onmouseleave="dropdownleaveFunc()">
+          <button class="valikkolinkit"><a href="../kerhotoiminta/kalenteri.html">Kalenteri</a></button>
         </div>
+      </div>
 
         <div class="dropdown">
           <button class="dropbtn" type="button">Havaintotoiminta</button>
@@ -53,7 +53,6 @@
           <button class="dropbtn" type="button">Muu toiminta</button>
         </div>
     </nav>
-
 
       <div class="sisalto">
         <article class="paaTeksti">
